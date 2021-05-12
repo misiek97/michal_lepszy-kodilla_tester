@@ -8,16 +8,17 @@ public class Loops {
             String name = names[i];
             System.out.println(name);
         }
+        int[] numbers = new int[] {21, 2, 13, 14, 95, 6};
+        int sum = sum(numbers);
+        System.out.println(sum);
     }
-    public int sum(int[] numbers) {
+    public static int sum(int[] numbers) {
 
-        int[] digits = new int[] {21, 2, 13, 14, 95, 6};
         int sum = 0;
 
-        for (int i = digits.length - 1; i >= 0; i--) {
-            sum = sum + digits[i];
+        for (int i = numbers.length - 1; i >= 0; i--) {
+            sum = sum + numbers[i];
         }
         return sum;
-        System.out.println(sum);
     }
 }

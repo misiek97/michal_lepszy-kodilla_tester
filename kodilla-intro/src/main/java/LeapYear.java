@@ -1,6 +1,12 @@
+import java.util.Scanner;
+
 public class LeapYear {
     public static void main(String[] args) {
-        int yourYear = 2021;
+        System.out.println("enter year:");
+        Scanner scaner=new Scanner(System.in);
+        String s = scaner.nextLine();
+
+        int yourYear = Integer.parseInt(s);
         int check4 = yourYear % 4;
         int check100 = yourYear % 100;
         int check400 = yourYear % 400;
