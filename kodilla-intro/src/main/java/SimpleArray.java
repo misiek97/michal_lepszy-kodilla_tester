@@ -9,8 +9,7 @@ public class SimpleArray {
         friends[3] = "Catherine";
         friends[4] = "Mark";
 
-        String ancient = friends[3];
-        System.out.println(ancient);
+        System.out.println(friends[3]);
 
         int numberOfElements = friends.length;
         System.out.println("No of elements in my array:");
