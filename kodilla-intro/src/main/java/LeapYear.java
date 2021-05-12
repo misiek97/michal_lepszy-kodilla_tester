@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class LeapYear {
     public static void main(String[] args) {
         System.out.println("enter year:");
-        Scanner scaner=new Scanner(System.in);
+        Scanner scaner = new Scanner(System.in);
         String s = scaner.nextLine();
 
         int yourYear = Integer.parseInt(s);
