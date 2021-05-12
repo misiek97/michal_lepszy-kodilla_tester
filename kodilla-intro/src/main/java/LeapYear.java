@@ -5,13 +5,14 @@ public class LeapYear {
         int check100 = yourYear % 100;
         int check400 = yourYear % 400;
 
+        System.out.println(yourYear);
 
-        if (check4 = 0 && check100 = 0 && check400 = 0) {
-            System.out.println("This is the leap year");
-        } else if (check4 = 0 && check100 > 0) {
-            System.out.println("This is the leap year");
+        if (check4 == 0 && check100 == 0 && check400 == 0) {
+            System.out.println("is the leap year");
+        } else if (check4 == 0 && check100 > 0) {
+            System.out.println("is the leap year");
         } else {
-            System.out.println("This is not a leap year");
+            System.out.println("is not a leap year");
         }
 
     }
