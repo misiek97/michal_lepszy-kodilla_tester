@@ -1,4 +1,4 @@
-public class FirstClass {
+public class NotebookPlay {
     public static void main(String[] args) {
 
         Notebook notebook = new Notebook(2000,800, 2013);
