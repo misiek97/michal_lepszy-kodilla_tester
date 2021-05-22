@@ -8,6 +8,8 @@ public class Loops {
             String name = names[i];
             System.out.println(name);
         }
+
+
         int[] numbers = new int[] {21, 2, 13, 14, 95, 6};
         int sum = sum(numbers);
         System.out.println(sum);
