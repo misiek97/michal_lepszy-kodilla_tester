@@ -18,16 +18,15 @@ public class Grades {
     public int getAverage() {
         int sum = 0;
         int average = 0;
-        for (int i = grades.length - 1; i >= 0; i--) {
+        for (int i = size; i >= 0; i--) {
             sum = sum + grades[i];
-            average = sum / grades.length;
+            average = sum / size;
         }
         return average;
     }
 
     public int getLastGrade() {
-        int numberOfElements = grades.length;
-        int lastGrade = grades[numberOfElements];
+        int lastGrade = grades[size - 1];
 
         return lastGrade;
     }
