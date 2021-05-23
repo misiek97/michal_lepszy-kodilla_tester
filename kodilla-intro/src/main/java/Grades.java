@@ -17,7 +17,7 @@ public class Grades {
         this.size++;
     }
 
-    public static int getAverage(int[] grades) {
+    public int getAverage(int[] grades) {
         int sum = 0;
         int average = 0;
         for (int i = grades.length - 1; i >= 0; i--) {
@@ -27,7 +27,7 @@ public class Grades {
         return average;
     }
 
-    public static int getLastGrade(int[] grades) {
+    public int getLastGrade(int[] grades) {
         int numberOfElements = grades.length;
         int lastGrade = grades[numberOfElements];
 
