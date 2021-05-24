@@ -1,19 +1,36 @@
 public class UserPlay {
-    public static void main(String[] args) {
+    String[] name;
+    int[] age;
+    int size;
 
-        User age = new User();
-        age.addAge(25);
-        age.addAge(34);
-        age.addAge(13);
-        age.addAge(55);
+    public UserPlay() {
+        this.size = 0;
+    }
 
-        User name = new User();
-        name.addName("Elizabeth");
-        name.addName("Rafael");
-        name.addName("Luke");
-        name.addName("Catherine");
-        name.addName("Mark");
+    public void addAge(int value) {
+        this.age[this.size] = value;
+        this.size++;
+    }
 
+    public void addName(String value2) {
+        this.name[this.size] = value2;
+    }
 
+    public int getAverage() {
+        int sum = 0;
+        int average = 0;
+        for (int i = size; i >= 0; i--) {
+            sum = sum + age[i];
+            average = sum / size;
+        }
+        return average;
+
+        for (int i = 0; i < size; i++) {
+            if (age[i] > average) {
+                String name = name[i];
+                System.out.println(name);
+
+            }
+        }
     }
 }
