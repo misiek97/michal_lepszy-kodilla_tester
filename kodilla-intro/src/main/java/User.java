@@ -1,11 +1,17 @@
 public class User {
-    public static void main(String[] args) {
+    private String name;
+    private int age;
 
-        UserPlay age = new UserPlay();
-        age.addAge(25);
+    public User(String userName, int howOld) {
+        name = userName; //this.name = name (from class)
+        age = howOld;    //this.age = age (class property)
+    }
 
-        UserPlay name = new UserPlay();
-        name.addName("Elizabeth");
+    public String getName() {
+        return name;
+    }
 
+    public int getAge() {
+        return age;
     }
 }
