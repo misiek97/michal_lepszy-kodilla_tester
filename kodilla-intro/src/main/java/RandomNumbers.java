@@ -5,7 +5,7 @@ class RandomNumbers {
         int maxValue = 31; //generate random values from 0-30
         int number = rand.nextInt(maxValue);
 
-        int min = 0;
+        int min = maxValue;
         int max = 0;
 
         for (int sum = number; sum < 5000; sum += number) {

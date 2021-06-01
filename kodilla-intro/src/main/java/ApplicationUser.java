@@ -1,7 +1,7 @@
 public class ApplicationUser {
-    String name;
-    double age;
-    double height;
+    private String name;
+    private double age;
+    private double height;
 
     public ApplicationUser(String name, double age, double height) {
         this.name = name;
