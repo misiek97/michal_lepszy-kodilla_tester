@@ -3,7 +3,7 @@ package com.kodilla.abstracts.homework;
 public class Application {
     public static void main(String[] args) {
 
-        ShapeOne shapeOne = new ShapeOne(1, 4);
+        ShapeOne shapeOne = new ShapeOne(12, 4);
         shapeOne.giveArea();
         shapeOne.giveCircumference();
 

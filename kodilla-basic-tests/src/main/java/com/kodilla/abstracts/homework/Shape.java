@@ -1,19 +1,23 @@
 package com.kodilla.abstracts.homework;
 
 public abstract class Shape {
-    private int valueArea;
-    private int valueCircumference;
+    private int a;
+    private int h;
 
-    public Shape (int valueArea, int valueCircumference) {
-        this.valueArea = valueArea;
-        this.valueCircumference = valueCircumference;
+    public Shape (int a, int h) {
+        this.a = a;
+        this.h = h;
     }
 
-    public int getValueArea() {
+    public int calculateArea() {
+        int valueArea;
+        valueArea = a * h;
         return valueArea;
     }
 
-    public int getValueCircumference() {
+    public int calculateCircumference() {
+        int valueCircumference;
+        valueCircumference = 4 * a;
         return valueCircumference;
     }
 
