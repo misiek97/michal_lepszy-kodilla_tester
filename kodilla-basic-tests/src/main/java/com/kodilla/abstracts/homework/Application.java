@@ -14,5 +14,12 @@ public class Application {
         ShapeThree shapeThree = new ShapeThree(22, 33);
         shapeThree.giveArea();
         shapeThree.giveCircumference();
+
+        Person p1 = new Person("Adam", 23, new BusDriver(2500, "don't kill persons in the bus"));
+        p1.showResponsibilities();
+
+        Person p2 = new Person("Adam", 23, new Doctor(1000, "don't kill organs"));
+        p2.showResponsibilities();
     }
+
 }

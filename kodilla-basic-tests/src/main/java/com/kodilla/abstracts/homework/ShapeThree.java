@@ -3,7 +3,7 @@ package com.kodilla.abstracts.homework;
 public class ShapeThree extends Shape {
 
     public ShapeThree (int a, int h) {
-        super(400, 500);
+        super(a, h);
     }
 
     @Override
