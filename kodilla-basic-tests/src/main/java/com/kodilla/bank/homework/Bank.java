@@ -42,7 +42,7 @@ public class Bank {
             sum += cashMachines[n].getSaldoIn();
             howMany += cashMachines[n].getCountIn();
         }
-        return sum / count;
+        return (howMany > 0) ? sum / howMany : 0;
     }
 
     public double getAvgOut() {
@@ -52,6 +52,6 @@ public class Bank {
             sum += cashMachines[n].getSaldoOut();
             howMany += cashMachines[n].getCountOut();
         }
-        return sum / count;
+        return (howMany > 0) ? sum / howMany : 0;
     }
 }
