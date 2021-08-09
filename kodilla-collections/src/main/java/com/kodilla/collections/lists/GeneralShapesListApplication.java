@@ -8,7 +8,7 @@ import com.kodilla.collections.interfaces.Triangle;
 import java.util.LinkedList;
 import java.util.List;
 
-class GeneralShapesListApplications {
+class GeneralShapesListApplication {
     public static void main(String[] args) {
         List<Shape> shapes = new LinkedList<>();
         Square square = new Square(10.0);
