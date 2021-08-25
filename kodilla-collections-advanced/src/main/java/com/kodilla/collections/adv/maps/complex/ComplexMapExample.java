@@ -6,6 +6,7 @@ import java.util.Map;
 public class ComplexMapExample {
     public static void main(String[] args) {
         Map<Student, Grades> school = new HashMap<>();
+
         Student john = new Student("John", "Stevenson");
         Student jessie = new Student("Jessie", "Pinkman");
         Student bart = new Student("Bart", "Simpson");
